@@ -10,7 +10,7 @@ class Account:
         self.balance += amount
         print(f"Deposited {amount} New balance: {self.balance}")
     def withdraw (self,amount):
-     print(f"Withdrawing {amount} New balance: {self.balance-amount}")
+     print(f"Withdrawing {amount} Expected balance: {self.balance-amount}")
      if amount <= self.balance:
         self.balance -= amount
         print(f"Withdrawn {amount} New balance: {self.balance}")
